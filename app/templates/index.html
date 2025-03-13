@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+</head>
+<body>
+
+    <h1>Enter your text to summarize</h1>
+    <form method="post" enctype="multipart/form-data">
+      <textarea name="file1" cols="40" rows="5"></textarea>
+      <input type="submit">
+    </form>
+    <h1>Entered Text:</h1>
+    <p>{{inp}}</p>
+    <h1>Extractive Summary:</h1>
+    <p>{{result1}}</p>
+    <br>
+    <h1>Abstractive Summary:</h1>
+    <p>{{result2}}</p>
+</body>
+</html>
